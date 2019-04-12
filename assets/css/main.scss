@@ -59,10 +59,19 @@ a {
 }
 
 footer {
-  padding: 1em 0;
+  padding: .5em 0;
   >p {
     color: #fff;
     text-align: center;
+    margin: 0;
   }
   background-color: #0c1f69;
+}
+
+.logos {
+  text-align: center;
+  img {
+    width: 100px;
+    display: inline-block;
+  }
 }
