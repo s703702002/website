@@ -1,0 +1,306 @@
+body {
+	/*padding-top: 60px;*/
+	/*font-family: Helvetica, Tahoma, Arial, verdana, "Times New Roman", "微軟正黑體", "Microsoft JhengHei", "新細明體";*/
+	font-family: "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", "微软雅黑", "Microsoft YaHei", "メイリオ", Arial, "標楷體", DFKai-SB, sans-serif;
+	background-image: url(../images/bg.png);
+	background-position:50% 0%;
+	background-attachment:fixed;
+	background-repeat:repeat-y;
+	padding-top: 80px;
+	padding-bottom: 70px;
+	overflow-x: hidden;/*關閉橫向卷軸*/
+}
+input, button, select, textarea { /*其他元件字型*/
+font-family: "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", "微软雅黑", "Microsoft YaHei", "メイリオ", Arial, "標楷體", DFKai-SB, sans-serif;
+}
+[class^="icon-"],[class*=" icon-"] { /*修正放大後的文字導致小icon偏上*/
+  margin-top: 3px;	/*原本是3，現在改0*/
+}
+ul, ol { /*修正表格高度*/
+	margin: 0 0 0px 25px;
+}
+p {	/*修正P不知名的底下高度*/
+	margin-top: 0px;
+}
+.margin-bottom-10px{
+		margin-bottom: 10px;
+}
+.nav {
+	font-size:16px
+	}
+.box {
+	max-width: 768px;
+	margin: 0px auto;
+	*margin: 0px auto;
+	_margin: 0px auto;
+	display:block;
+	/*background-color:#FCC;*/
+	padding:10px;
+	padding:10px \9;
+}
+.Centered {
+	margin: 0px auto;
+	*margin: 0px auto;
+	_margin: 0px auto;
+}
+/*   header樣式  */
+.navbar-inner {
+background-color: #FFF;	/*巡覽列背景色(單色)*/
+background-image: linear-gradient(to bottom, #FFFFFF, #E5E5E5);	/*巡覽列背景色(漸層)*/
+border:hidden;	/*巡覽列底線外框*/
+border:hidden \9;	/*這一行則是所有的ie都看得懂*/
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffE5E5E5', GradientType=0);	/*這一行則是所有的ie都看得懂*/
+}
+.navbar_box {
+	max-width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.navbar .brand-Pic {	/*巡覽列的Logo圖片位置*/
+	float: left;
+	display: block;
+	padding: 10px 20px 10px;
+	margin-left: -10px;
+	margin-right: -10px;
+}
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
+.navbar .nav > .active > a:focus {
+color: #444;	/*巡覽列字體的顏色*/
+text-decoration: none;
+background-color: #E5E5E5; /*巡覽列選取的顏色*/
+}
+.navbar .nav > .active > a:hover {
+	color: #000;	/*巡覽列作用中字體hover顏色*/
+	}
+.navbar .nav > li > a {
+	color: #444;	/*巡覽列字體色*/
+	text-shadow: 0 1px 0 #FFF;	/*巡覽列字體影子色*/
+}
+.navbar .nav > li > a:hover {
+	color: #2e6dc3;	/*巡覽列字體體hover顏色*/
+	background-color: #E5E5E5; /*巡覽列選取的顏色*/
+	}
+
+	.navbar .btn-navbar {	/*迷你巡覽列展開按鈕*/
+background-color: #E5E5E5;
+background-image: -moz-linear-gradient(top, #FFFFFF, #E5E5E5);
+background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#FFFFFF), to(#E5E5E5));
+background-image: -webkit-linear-gradient(top, #FFFFFF, #E5E5E5);
+background-image: -o-linear-gradient(top, #FFFFFF, #E5E5E5);
+background-image: linear-gradient(to bottom, #FFFFFF, #E5E5E5);
+	}
+.navbar .btn-navbar:hover,	/*迷你巡覽列展開按鈕hover顏色*/
+.navbar .btn-navbar:focus,
+.navbar .btn-navbar:active,
+.navbar .btn-navbar.active,
+.navbar .btn-navbar.disabled,
+.navbar .btn-navbar[disabled] {
+  color: #ffffff;
+  background-color: #E5E5E5;
+  *background-color: #E5E5E5;
+}
+/*   大圖輪播樣式   */
+.myCarousel{
+	display:none;
+}
+.container-narrow {
+	max-width: 980px;
+	/*	margin-left: -20px;
+	margin-right: -20px;*/
+
+	margin: 0px auto;
+	*margin: 0px auto;
+	_margin: 0px auto;
+	margin-top: -20px;
+}
+.carousel-inner {
+}
+.carousel-Pic {
+	width:100%;
+}
+.carousel-indicators {
+	right: 40px;
+}
+.carousel-control {
+	margin-top:1%;
+	left: 40px;
+	height: 90px;
+	font-size: 140px;
+	background-color: transparent;
+	border: 0;
+}
+.carousel-control.right {
+	right: 40px;
+}
+/*   Content樣式   */
+.carousel {
+	position: relative;
+	margin-bottom: 0px;
+}
+.SP-Title-01 {	/*h4改造*/
+	background-image: url(../images/h4-ribbon-red.png);
+	background-repeat: no-repeat;
+/*	height: 48px;
+*/	line-height: 48px;
+	color: #FFF;
+	padding-left: 10px;
+	margin-left: -10px;
+}
+
+/*  footer樣式  */
+
+#footer {
+	/*height: 65px;*/
+	padding: 10px 0;
+	/*background-color: #01265D \9; /* IE 背景變色 */
+	background-color: #01265D \9; /* IE 背景變色 */
+	/*background: rgba(01%,14%,36%,0.9);	舊的藍色*/
+	/*background: rgba(97%,97%,97%,0.9);	新的白色*/
+	background: rgba(00%,21%,49%,0.9); /*凱基的藍色*/
+	/*	margin-left: -20px;
+	margin-right: -20px;*/
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.navbar-fixed-bottom {
+	margin-top: 0px;
+}
+.container, .navbar-fixed-bottom .container {
+	width: 940px;
+}
+.muted {	/*Footer的文字顏色*/
+	color:#FFF;
+	}
+
+/*  世界國旗  */ 
+.wordflag {
+	list-style-type:none; 
+	margin-left:0px;
+}
+.icon_wordflag {
+	background-repeat:no-repeat;
+	background-position:0 0.4em; 
+	padding-left:20px; 
+}
+.usa {
+	background-image:url(../images/World_Flag/us.png); 
+}
+.eur {
+	background-image:url(../images/World_Flag/europeanunion.png); 
+}.gbp {
+	background-image:url(../images/World_Flag/gb.png); 
+}.rmb {
+	background-image:url(../images/World_Flag/cn.png); 
+}.jpy {
+	background-image:url(../images/World_Flag/jp.png); 
+}.hkd {
+	background-image:url(../images/World_Flag/hk.png); 
+}.aud {
+	background-image:url(../images/World_Flag/au.png); 
+}.zar {
+	background-image:url(../images/World_Flag/za.png); 
+}
+
+/* 大螢幕 */
+@media (min-width: 1200px) {
+.box {
+	width: 960px;
+	margin: 0px auto;
+	*margin: 0px auto;
+	_margin: 0px auto;
+}
+}
+ 
+/* 平板電腦、橫向手機和一般桌機解析度 */
+@media (min-width: 768px) and (max-width: 979px) {
+body {
+	padding-top: 80px;
+	padding-bottom: 0px;
+}
+.navbar-fixed-top .navbar-inner, .navbar-fixed-bottom .navbar-inner {
+padding: 0px;
+}
+.navbar-fixed-top {
+    position: fixed;
+}
+/*.container-narrow {
+margin-top: -10px;
+}*/
+.box {
+	max-width: 768px;
+	margin: 0px auto;
+	*margin: 0px auto;
+	_margin: 0px auto;
+}
+#footer {
+	margin-left: -0px;
+	margin-right: -0px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.container, .navbar-fixed-bottom .container {
+	width: auto;
+}
+}
+ 
+/* 橫向智慧手機到竪立平板電腦解析度 */
+@media (max-width: 767px) {
+body {
+	padding-top: 0;
+	padding-bottom: 0px;
+}
+.navbar-fixed-top {
+    position: fixed;
+}
+.container-narrow {
+margin-top: 60px;
+}
+.navbar-fixed-top .navbar-inner {
+	padding:5px 20px;
+}
+.navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+margin: 0px 0px;
+}
+/*.navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+margin-left: -20px;
+margin-right: -20px;
+}*/
+.navbar-fixed-top .navbar-inner, .navbar-fixed-bottom .navbar-inner {
+padding: 0px;
+}
+.box {
+/*	padding-top:70px; 好像是多餘的高度填充*/}
+.carousel-inner {
+	width:auto;
+	margin-left: -20%;
+	margin-right: -20%;/*overflow : hidden;*/
+}
+.carousel-indicators {
+	right: 15px;
+}
+.carousel-control {
+	left: 15px;
+}
+.carousel-control.right {
+	right: 15px;
+}
+#footer {
+	margin-left: -20px;
+	margin-right: -20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.container, .navbar-fixed-bottom .container {
+	width: auto;
+}
+.container-narrow {
+	margin-left: -20px;
+	margin-right: -20px;
+	overflow: hidden;
+}
+}
+ 
+/* 橫向智慧手機及其他更小解析度 */
+@media (max-width: 480px) {
+}
