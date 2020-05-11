@@ -272,3 +272,7 @@ width: 970px; /*調整導覽列寬度*/
 	color: #652fad;
 	text-decoration: none;;
 }
+
+.qrcode {
+	color: #fffc00;
+}
