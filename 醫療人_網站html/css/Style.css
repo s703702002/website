@@ -276,3 +276,31 @@ width: 970px; /*調整導覽列寬度*/
 .qrcode {
 	color: #fffc00;
 }
+
+.banner {
+	position: relative;
+}
+
+.banner .link-1 {
+	display: block;
+	position: absolute;
+	width: 25%;
+	height: 7.5%;
+	top: 19%;
+	left: 9.5%;
+	/* background: red; */
+	z-index: 10;
+	border-radius: 13px;
+}
+
+.banner .link-2 {
+	display: block;
+	position: absolute;
+	width: 36%;
+	height: 4.5%;
+	left: 32%;
+	/* background: red; */
+	z-index: 11;
+	bottom: 1%;
+	border-radius: 50px;
+}
