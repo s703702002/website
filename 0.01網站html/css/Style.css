@@ -245,11 +245,19 @@ width: 970px; /*調整導覽列寬度*/
 	
 }
 
-#accordion h3 {
+#accordion > .title {
 	margin: 0;
 	outline: none;
 	cursor: pointer;
 	padding: 10px;
+}
+
+#accordion > .content {
+	padding-bottom: 5px;
+}
+
+#accordion > .content > ol > li {
+	padding-right: 10px;
 }
 
 .fixed-btn {
@@ -267,7 +275,7 @@ width: 970px; /*調整導覽列寬度*/
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	font-weight: bold;
+	font-weight: bolder;
 }
 
 .fixed-btn:hover {
