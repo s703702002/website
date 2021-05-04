@@ -19,3 +19,5 @@ var userAgent = navigator.userAgent.toLowerCase();
             location.href = "index.html";
         }
     }
+
+console.log('hello')
